@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greece Travel Agency</title>
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="stylesheet" href="./resources/reset.css">
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <div class="logo-nav">
+        <img class="img-logo" src="resources/images/logogreek1.png" alt="Andrei Aciobanitei logo">
+        <ul class="nav">
+
+            <li class="text"><a href="index.html">Home</a></li>
+            <li class="text"><a href="our-products.html">Our Products</a></li>
+            <li class="text"><a href="physical-activities.html">Physical Activities</a></li>
+            <li class="text"><a href="about-us.html">About Us</a></li>
+            <li class="text"><a href="contact.html">Contact</a></li>
+
+
+        </ul>
+    </div>
+   <section class="contact-text"> <h1 id="title"> Contact Us</h1>
+    <p >If you have any questions or would like more information about our services, please contact us
+        directly. You can reach us via phone at 07466752759. </p>
+    <p >We're here to answer your questions and give you the information you need to make your experience
+        with us as smooth and pleasurable as possible. Additionally, for your convenience, we've included a full contact
+        form below.</p>
+    <p >Simply fill out the form with your information and a question, and our team will get back to you
+        right away. We look forward to hearing from you and helping you plan your next vacation.</p></section>
+    <div class="myform">
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="contact-us">
+            <p class="footer_p" >Contact:</p>
+            <p class="footer_p">Greece Travel Agency</p>
+            <p class="footer_p">Tel: 07466752759</p>
+            <p class="footer_p">andacio81@gmail.com</p>
+        </div>
+        <p class="textfooter">© 2024 Greece Travel Agency. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

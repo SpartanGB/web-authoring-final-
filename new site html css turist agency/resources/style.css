@@ -1,0 +1,313 @@
+html {
+    font-size: 1.7rem;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-height: 100vh;
+}
+
+.logo-nav {
+    width: 100%;
+    height: 5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(19, 19, 178);
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    padding: 0 1rem;
+    box-sizing: border-box; 
+    z-index: 100;
+}
+
+.img-logo {
+    height: 6rem; 
+    margin-right: 1rem;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.img-logo img {
+    height: 100%; 
+    width: auto; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.nav a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none; /* Removes underline */
+}
+
+.nav a li {
+    font-size: 1.4rem;
+    color: white;
+    white-space: nowrap;
+}
+
+.nav a:hover, .nav a:focus {
+    background-color: rgba(255, 255, 255, 0.1); /* Soft highlight for interactivity */
+    color: rgb(6, 6, 6);
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    margin-top: 5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    margin-top: 2rem;
+}
+.p{
+    font-size: 1.2rem;
+    color: rgb(6, 6, 6);
+    text-align: center;
+   
+}
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 250px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.imagecontainer:hover{
+    transform: scale(1.04);
+}
+
+.imagecontainerm{
+ display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    transition: transform 0.5s ease;
+    border-radius: 20px;
+
+}
+.imagecontainerm:hover{
+    transform: scale(1.04);
+}
+
+
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: rgb(19, 19, 178);
+    color: aliceblue; 
+    text-align: center;
+    padding: 1rem 0; 
+}
+
+.contact-us {
+    display: inline-flex;
+    
+   
+}
+
+
+.footer_p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    max-width: 80%; 
+  
+    padding: 2rem 2rem 2rem 6rem; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background: #f9f9f9; 
+}
+
+.myform {
+    display: flex;
+    flex-direction: column; 
+    margin: 2rem 10rem; 
+}
+form label {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    font-weight: bold; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; 
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+form button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#mission {
+    display: inline-flex;
+       justify-content: center;  
+}
+
+
+#right {
+    display: inline-flex;
+    justify-content: center;
+    margin: 2rem;
+    width: 50%;
+}
+#left {
+    display: inline-flex;
+    justify-content: center;
+    margin: 2rem;
+    width: 50%;
+}
+
+button {
+    background-color: #0056b3; 
+    color: #ffffff;
+    padding: 0.5rem 1rem; 
+    border: none;  
+    border-radius: 5px; 
+    cursor: pointer;
+    margin: 2rem auto 1rem; 
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    outline: none; 
+    text-decoration: none;
+}
+
+button:hover, button:focus {
+    background-color: #fefefe;
+    color: #0056b3; 
+    border: 1px solid #0056b3;
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.5); 
+}
+
+button, .button, a.button {
+    text-decoration: none; 
+}
+ 
+
+.contact-button {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0.5rem 1rem; 
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px ; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    border: none; 
+    outline: none; 
+    margin:1rem auto;; 
+}
+
+.contact-button:hover, .contact-button:focus {
+    background-color: #0056b3; /* Changes background on hover/focus */
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.5); /* Changes shadow on hover/focus */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.containerbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+#meetourteam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.ourproducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+.physical-activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+.ourteam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem;
+}
+.contact-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem;
+}
+.mission-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
